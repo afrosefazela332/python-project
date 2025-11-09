@@ -1,4 +1,4 @@
-import tkinter
+import tkinter as tk
 from tkinter import messagebox,ttk
 root=tkinter.Tk()
 def OnClick_Submit():
@@ -47,3 +47,4 @@ branch_dropdown.pack(anchor=tkinter.W,padx=50)
 submit_button=tkinter.Button(root,text="Submit",command=OnClick_Submit)
 submit_button.pack(anchor=tkinter.W,pady=10)
 root.mainloop()
+
